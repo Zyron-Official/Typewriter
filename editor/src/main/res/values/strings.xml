@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Code Editor</string>
+<string name="code_name">private void drawEditableString(Canvas canvas, int gutterWidth) {
+    int editableTextXOffset = gutterWidth + LINE_NUMBER_PADDING;
+    int yOffset = (int) editableTextPaint.getTextSize() + 4; // Add padding
+
+    // Get the string from resources
+    String textToDraw = getContext().getString(R.string.app_name);
+
+    // Get the width of the text
+    float textWidth = editableTextPaint.measureText(textToDraw);
+    float textHeight = editableTextPaint.getTextSize();
+
+    // Draw the text background
+    canvas.drawRect(editableTextXOffset, yOffset - textHeight, editableTextXOffset + textWidth, yOffset + 4, editableTextBackgroundPaint); // Adjust height for padding
+
+    // Draw the actual text
+    canvas.drawText(textToDraw, editableTextXOffset, yOffset, editableTextPaint);
+}</string>
+</resources>

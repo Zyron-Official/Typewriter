@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Code Editor/editor/src/main/java/com/zyron/typewriter/widget/CodeEditor.java",
+      "selection": {
+        "end": {
+          "column": 4,
+          "index": 15946,
+          "line": 446
+        },
+        "start": {
+          "column": 4,
+          "index": 15946,
+          "line": 446
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Code Editor/editor/src/main/java/com/zyron/typewriter/widget/EditorInterface.java",
+      "selection": {
+        "end": {
+          "column": 5,
+          "index": 6772,
+          "line": 142
+        },
+        "start": {
+          "column": 5,
+          "index": 6772,
+          "line": 142
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Code Editor/editor/src/main/java/com/zyron/typewriter/widget/EditorInterface.java"
+}

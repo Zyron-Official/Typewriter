@@ -1,0 +1,21 @@
+<resources>
+    <attr name="codeEditorStyle" format="reference" />
+    <declare-styleable name="EdgeStrip">
+        <attr name="dividerLineEnabled" format="boolean" />
+        <attr name="edgeStripEnabled" format="boolean" />
+        <attr name="edgeStripPadding" format="dimension" />
+        <attr name="edgeStripPaddingUnit" format="enum">
+            <enum name="px" value="0"/>
+            <enum name="dp" value="1"/>
+            <enum name="sp" value="2"/>
+            <enum name="pt" value="3"/>
+            <enum name="mm" value="4"/>
+            <enum name="in" value="5"/>
+        </attr>
+        <attr name="edgeStripGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
